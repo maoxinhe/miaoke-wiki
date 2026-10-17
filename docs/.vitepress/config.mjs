@@ -36,7 +36,8 @@ export default defineConfig({
           { text: '微办公系统', link: '/运维手册/微办公系统' },
           { text: '喵科大EC', link: '/运维手册/喵科大EC' },
           { text: '喵科大企业邮', link: '/运维手册/喵科大企业邮' },
-          { text: 'cmy-patch', link: '/运维手册/cmy-patch' }
+          { text: 'cmy-patch', link: '/运维手册/cmy-patch' },
+          { text: '喵科大起始页', link: '/运维手册/喵科大起始页' }
         ]
       },
       {
@@ -46,7 +47,8 @@ export default defineConfig({
           { text: '微办公系统', link: '/基础问题解答/微办公系统' },
           { text: '喵科大EC', link: '/基础问题解答/喵科大EC' },
           { text: '喵科大企业邮', link: '/基础问题解答/喵科大企业邮' },
-          { text: 'cmy-patch', link: '/基础问题解答/cmy-patch' }
+          { text: 'cmy-patch', link: '/基础问题解答/cmy-patch' },
+          { text: '喵科大起始页', link: '/基础问题解答/喵科大起始页' }
         ]
       },
       {
@@ -74,7 +76,8 @@ export default defineConfig({
             { text: '微办公系统', link: '/运维手册/微办公系统' },
             { text: '喵科大EC', link: '/运维手册/喵科大EC' },
             { text: '喵科大企业邮', link: '/运维手册/喵科大企业邮' },
-            { text: 'cmy-patch', link: '/运维手册/cmy-patch' }
+            { text: 'cmy-patch', link: '/运维手册/cmy-patch' },
+            { text: '喵科大起始页', link: '/运维手册/喵科大起始页' }
           ]
         }
       ],
@@ -87,7 +90,8 @@ export default defineConfig({
             { text: '微办公系统', link: '/基础问题解答/微办公系统' },
             { text: '喵科大EC', link: '/基础问题解答/喵科大EC' },
             { text: '喵科大企业邮', link: '/基础问题解答/喵科大企业邮' },
-            { text: 'cmy-patch', link: '/基础问题解答/cmy-patch' }
+            { text: 'cmy-patch', link: '/基础问题解答/cmy-patch' },
+            { text: '喵科大起始页', link: '/基础问题解答/喵科大起始页' }
           ]
         }
       ],
