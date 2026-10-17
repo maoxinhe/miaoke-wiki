@@ -1,0 +1,15 @@
+{
+  "name": "miaoke-wiki",
+  "version": "1.0.0",
+  "private": true,
+  "description": "喵科大服务站 · 团队运维手册与 AI 知识库",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
