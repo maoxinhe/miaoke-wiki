@@ -1,32 +1,24 @@
 ---
 layout: home
 hero:
-  name: 喵科大服务站
   text: 团队运维手册 · 基础问题解答 · AI 知识库
   tagline: 统一承载团队运维规范、常见问题与 AI 应用知识，供授权成员查阅与协作维护。
-  actions:
-    - theme: brand
-      text: 运维手册
-      link: /运维手册/
-    - theme: alt
-      text: 基础问题解答
-      link: /基础问题解答/
-    - theme: alt
-      text: AI 知识库
-      link: /AI知识库/
 features:
   - icon: 🛠️
     title: 运维手册
     details: 按项目组织的部署、监控、备份与安全运维规范（微办公系统、喵科大EC 等）。
     link: /运维手册/
+    linkText: 进入运维手册
   - icon: ❓
     title: 基础问题解答
     details: 面向团队成员的使用指南与常见问题，按项目组织（微办公系统、喵科大EC、喵科大企业邮 等）。
     link: /基础问题解答/
+    linkText: 进入基础问题解答
   - icon: 🤖
     title: AI 知识库
     details: AI 概念、工具平台、提示词工程、API 集成与合规实践的沉淀与复用。
     link: /AI知识库/
+    linkText: 进入 AI 知识库
 ---
 
 ## 本站定位
