@@ -39,7 +39,8 @@ export default defineConfig({
           { text: 'cmy-patch', link: '/运维手册/cmy-patch' },
           { text: '喵科大起始页', link: '/运维手册/喵科大起始页' },
           { text: 'MC Web', link: '/运维手册/MC-Web' },
-          { text: '喵科大SSO', link: '/运维手册/喵科大SSO' }
+          { text: '喵科大SSO', link: '/运维手册/喵科大SSO' },
+          { text: '梦之韵Pro云端平台', link: '/运维手册/梦之韵Pro云端平台' }
         ]
       },
       {
@@ -52,7 +53,8 @@ export default defineConfig({
           { text: 'cmy-patch', link: '/基础问题解答/cmy-patch' },
           { text: '喵科大起始页', link: '/基础问题解答/喵科大起始页' },
           { text: 'MC Web', link: '/基础问题解答/MC-Web' },
-          { text: '喵科大SSO', link: '/基础问题解答/喵科大SSO' }
+          { text: '喵科大SSO', link: '/基础问题解答/喵科大SSO' },
+          { text: '梦之韵Pro云端平台', link: '/基础问题解答/梦之韵Pro云端平台' }
         ]
       },
       {
@@ -83,7 +85,8 @@ export default defineConfig({
             { text: 'cmy-patch', link: '/运维手册/cmy-patch' },
             { text: '喵科大起始页', link: '/运维手册/喵科大起始页' },
             { text: 'MC Web', link: '/运维手册/MC-Web' },
-            { text: '喵科大SSO', link: '/运维手册/喵科大SSO' }
+            { text: '喵科大SSO', link: '/运维手册/喵科大SSO' },
+            { text: '梦之韵Pro云端平台', link: '/运维手册/梦之韵Pro云端平台' }
           ]
         }
       ],
@@ -99,7 +102,8 @@ export default defineConfig({
             { text: 'cmy-patch', link: '/基础问题解答/cmy-patch' },
             { text: '喵科大起始页', link: '/基础问题解答/喵科大起始页' },
             { text: 'MC Web', link: '/基础问题解答/MC-Web' },
-            { text: '喵科大SSO', link: '/基础问题解答/喵科大SSO' }
+            { text: '喵科大SSO', link: '/基础问题解答/喵科大SSO' },
+            { text: '梦之韵Pro云端平台', link: '/基础问题解答/梦之韵Pro云端平台' }
           ]
         }
       ],
