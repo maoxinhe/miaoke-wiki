@@ -1,7 +1,7 @@
 ---
 layout: home
 hero:
-  text: 团队运维手册 · 基础问题解答 · AI 知识库
+  text: 团队运维手册 · 基础问题解答<br>AI 知识库
   tagline: 统一承载团队运维规范、常见问题与 AI 应用知识，供授权成员查阅与协作维护。
 features:
   - icon: 🛠️

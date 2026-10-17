@@ -2,6 +2,7 @@
 import DefaultTheme from 'vitepress/theme'
 import { useData } from 'vitepress'
 import CCCard from './CCCard.vue'
+import NotFound404 from './NotFound.vue'
 
 const { frontmatter } = useData()
 
@@ -15,6 +16,9 @@ const isHome = () => {
   <DefaultTheme.Layout>
     <template #doc-after>
       <CCCard v-if="!isHome()" />
+    </template>
+    <template #not-found>
+      <NotFound404 />
     </template>
   </DefaultTheme.Layout>
 </template>
