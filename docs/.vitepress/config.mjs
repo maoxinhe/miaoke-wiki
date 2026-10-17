@@ -23,7 +23,7 @@ export default defineConfig({
     lastUpdated: { text: '最后更新于', formatOptions: { dateStyle: 'short', timeStyle: 'short' } },
     docFooter: { prev: '上一篇', next: '下一篇' },
     editLink: {
-      pattern: 'https://github.com/YOUR_ORG/miaoke-wiki/edit/main/docs/:path',
+      pattern: 'https://github.com/maoxinhe/miaoke-wiki/edit/main/docs/:path',
       text: '编辑此页 · 完善本站'
     },
 
@@ -39,7 +39,8 @@ export default defineConfig({
           { text: '数据库与存储', link: '/运维手册/数据库与存储' },
           { text: '网络与安全', link: '/运维手册/网络与安全' },
           { text: '故障排查手册', link: '/运维手册/故障排查' },
-          { text: '备份与恢复', link: '/运维手册/备份与恢复' }
+          { text: '备份与恢复', link: '/运维手册/备份与恢复' },
+          { text: '微办公系统', link: '/运维手册/微办公系统' }
         ]
       },
       {
@@ -50,7 +51,8 @@ export default defineConfig({
           { text: '软件与工具', link: '/基础问题解答/软件与工具' },
           { text: '网络与连接', link: '/基础问题解答/网络与连接' },
           { text: '常见报错', link: '/基础问题解答/常见报错' },
-          { text: '其他问题', link: '/基础问题解答/其他问题' }
+          { text: '其他问题', link: '/基础问题解答/其他问题' },
+          { text: '微办公系统', link: '/基础问题解答/微办公系统' }
         ]
       },
       {
@@ -81,7 +83,8 @@ export default defineConfig({
             { text: '数据库与存储', link: '/运维手册/数据库与存储' },
             { text: '网络与安全', link: '/运维手册/网络与安全' },
             { text: '故障排查手册', link: '/运维手册/故障排查' },
-            { text: '备份与恢复', link: '/运维手册/备份与恢复' }
+            { text: '备份与恢复', link: '/运维手册/备份与恢复' },
+            { text: '微办公系统', link: '/运维手册/微办公系统' }
           ]
         }
       ],
@@ -95,7 +98,8 @@ export default defineConfig({
             { text: '软件与工具', link: '/基础问题解答/软件与工具' },
             { text: '网络与连接', link: '/基础问题解答/网络与连接' },
             { text: '常见报错', link: '/基础问题解答/常见报错' },
-            { text: '其他问题', link: '/基础问题解答/其他问题' }
+            { text: '其他问题', link: '/基础问题解答/其他问题' },
+            { text: '微办公系统', link: '/基础问题解答/微办公系统' }
           ]
         }
       ],
