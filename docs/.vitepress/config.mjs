@@ -8,11 +8,11 @@ export default defineConfig({
   lastUpdated: true,
   head: [
     ['meta', { name: 'theme-color', content: '#2b5fa8' }],
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }]
+    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }]
   ],
 
   themeConfig: {
-    logo: '/favicon.svg',
+    logo: '/favicon.png',
     siteTitle: '喵科大服务站',
     outline: { label: '本页目录', level: [2, 3] },
     returnToTopLabel: '返回顶部',
