@@ -34,7 +34,8 @@ export default defineConfig({
         items: [
           { text: '总览', link: '/运维手册/' },
           { text: '微办公系统', link: '/运维手册/微办公系统' },
-          { text: '喵科大EC', link: '/运维手册/喵科大EC' }
+          { text: '喵科大EC', link: '/运维手册/喵科大EC' },
+          { text: '喵科大企业邮', link: '/运维手册/喵科大企业邮' }
         ]
       },
       {
@@ -42,7 +43,8 @@ export default defineConfig({
         items: [
           { text: '总览', link: '/基础问题解答/' },
           { text: '微办公系统', link: '/基础问题解答/微办公系统' },
-          { text: '喵科大EC', link: '/基础问题解答/喵科大EC' }
+          { text: '喵科大EC', link: '/基础问题解答/喵科大EC' },
+          { text: '喵科大企业邮', link: '/基础问题解答/喵科大企业邮' }
         ]
       },
       {
@@ -68,7 +70,8 @@ export default defineConfig({
           items: [
             { text: '总览', link: '/运维手册/' },
             { text: '微办公系统', link: '/运维手册/微办公系统' },
-            { text: '喵科大EC', link: '/运维手册/喵科大EC' }
+            { text: '喵科大EC', link: '/运维手册/喵科大EC' },
+            { text: '喵科大企业邮', link: '/运维手册/喵科大企业邮' }
           ]
         }
       ],
@@ -79,7 +82,8 @@ export default defineConfig({
           items: [
             { text: '总览', link: '/基础问题解答/' },
             { text: '微办公系统', link: '/基础问题解答/微办公系统' },
-            { text: '喵科大EC', link: '/基础问题解答/喵科大EC' }
+            { text: '喵科大EC', link: '/基础问题解答/喵科大EC' },
+            { text: '喵科大企业邮', link: '/基础问题解答/喵科大企业邮' }
           ]
         }
       ],
