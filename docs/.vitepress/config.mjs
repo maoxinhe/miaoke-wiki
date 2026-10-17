@@ -40,7 +40,8 @@ export default defineConfig({
           { text: '网络与安全', link: '/运维手册/网络与安全' },
           { text: '故障排查手册', link: '/运维手册/故障排查' },
           { text: '备份与恢复', link: '/运维手册/备份与恢复' },
-          { text: '微办公系统', link: '/运维手册/微办公系统' }
+          { text: '微办公系统', link: '/运维手册/微办公系统' },
+          { text: '喵科大EC', link: '/运维手册/喵科大EC' }
         ]
       },
       {
@@ -52,7 +53,8 @@ export default defineConfig({
           { text: '网络与连接', link: '/基础问题解答/网络与连接' },
           { text: '常见报错', link: '/基础问题解答/常见报错' },
           { text: '其他问题', link: '/基础问题解答/其他问题' },
-          { text: '微办公系统', link: '/基础问题解答/微办公系统' }
+          { text: '微办公系统', link: '/基础问题解答/微办公系统' },
+          { text: '喵科大EC', link: '/基础问题解答/喵科大EC' }
         ]
       },
       {
@@ -84,7 +86,8 @@ export default defineConfig({
             { text: '网络与安全', link: '/运维手册/网络与安全' },
             { text: '故障排查手册', link: '/运维手册/故障排查' },
             { text: '备份与恢复', link: '/运维手册/备份与恢复' },
-            { text: '微办公系统', link: '/运维手册/微办公系统' }
+            { text: '微办公系统', link: '/运维手册/微办公系统' },
+            { text: '喵科大EC', link: '/运维手册/喵科大EC' }
           ]
         }
       ],
@@ -99,7 +102,8 @@ export default defineConfig({
             { text: '网络与连接', link: '/基础问题解答/网络与连接' },
             { text: '常见报错', link: '/基础问题解答/常见报错' },
             { text: '其他问题', link: '/基础问题解答/其他问题' },
-            { text: '微办公系统', link: '/基础问题解答/微办公系统' }
+            { text: '微办公系统', link: '/基础问题解答/微办公系统' },
+            { text: '喵科大EC', link: '/基础问题解答/喵科大EC' }
           ]
         }
       ],
