@@ -38,7 +38,8 @@ export default defineConfig({
           { text: '喵科大企业邮', link: '/运维手册/喵科大企业邮' },
           { text: 'cmy-patch', link: '/运维手册/cmy-patch' },
           { text: '喵科大起始页', link: '/运维手册/喵科大起始页' },
-          { text: 'MC Web', link: '/运维手册/MC-Web' }
+          { text: 'MC Web', link: '/运维手册/MC-Web' },
+          { text: '喵科大SSO', link: '/运维手册/喵科大SSO' }
         ]
       },
       {
@@ -50,7 +51,8 @@ export default defineConfig({
           { text: '喵科大企业邮', link: '/基础问题解答/喵科大企业邮' },
           { text: 'cmy-patch', link: '/基础问题解答/cmy-patch' },
           { text: '喵科大起始页', link: '/基础问题解答/喵科大起始页' },
-          { text: 'MC Web', link: '/基础问题解答/MC-Web' }
+          { text: 'MC Web', link: '/基础问题解答/MC-Web' },
+          { text: '喵科大SSO', link: '/基础问题解答/喵科大SSO' }
         ]
       },
       {
@@ -80,7 +82,8 @@ export default defineConfig({
             { text: '喵科大企业邮', link: '/运维手册/喵科大企业邮' },
             { text: 'cmy-patch', link: '/运维手册/cmy-patch' },
             { text: '喵科大起始页', link: '/运维手册/喵科大起始页' },
-            { text: 'MC Web', link: '/运维手册/MC-Web' }
+            { text: 'MC Web', link: '/运维手册/MC-Web' },
+            { text: '喵科大SSO', link: '/运维手册/喵科大SSO' }
           ]
         }
       ],
@@ -95,7 +98,8 @@ export default defineConfig({
             { text: '喵科大企业邮', link: '/基础问题解答/喵科大企业邮' },
             { text: 'cmy-patch', link: '/基础问题解答/cmy-patch' },
             { text: '喵科大起始页', link: '/基础问题解答/喵科大起始页' },
-            { text: 'MC Web', link: '/基础问题解答/MC-Web' }
+            { text: 'MC Web', link: '/基础问题解答/MC-Web' },
+            { text: '喵科大SSO', link: '/基础问题解答/喵科大SSO' }
           ]
         }
       ],
