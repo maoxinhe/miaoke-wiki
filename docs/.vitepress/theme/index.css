@@ -8,7 +8,7 @@
 
   /* 顶部导航与正文底色 */
   --vp-c-bg: #ffffff;
-  --vp-c-bg-soft: #f7f9fc;
+  --vp-c-bg-soft: #f6f8fc;
   --vp-c-bg-alt: #eef2f8;
   --vp-c-divider: #e2e8f0;
 
@@ -16,12 +16,6 @@
   --vp-c-text-1: #1f2937;
   --vp-c-text-2: #4b5563;
   --vp-c-text-3: #6b7280;
-
-  /* 首页 hero 区 */
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(120deg, #2b5fa8 20%, #4c8bd6 80%);
-  --vp-home-hero-image-background-image: linear-gradient(120deg, rgba(43,95,168,.12), rgba(76,139,214,.08));
-  --vp-home-hero-image-filter: none;
 }
 
 /* 深色模式 */
@@ -39,7 +33,123 @@
   --vp-c-text-3: #7c899b;
 }
 
-/* 正文排版微调 */
+/* ===== 首页 Hero 区：收敛字号、保持正式 ===== */
+.VPHero .container {
+  max-width: 900px;
+}
+
+.VPHero .name {
+  font-size: clamp(1.7rem, 4.6vw, 3rem) !important;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  background: linear-gradient(120deg, #1f4a86 20%, #4c8bd6 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.VPHero .text {
+  font-size: clamp(1.05rem, 2.3vw, 1.45rem) !important;
+  line-height: 1.5;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.VPHero .tagline {
+  font-size: 0.98rem;
+  color: var(--vp-c-text-2);
+  max-width: 640px;
+  margin: 0.9rem auto 0;
+  line-height: 1.7;
+}
+
+/* Hero 按钮：居中、间距合理、窄屏竖排 */
+.VPHero .actions {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.8rem 1rem;
+}
+
+.VPHero .actions .VPButton {
+  min-width: 0;
+  padding: 0.62rem 1.7rem;
+  font-size: 0.98rem;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.VPHero .actions .VPButton.brand {
+  background: linear-gradient(120deg, #2b5fa8, #3c74c2);
+  border: none;
+  box-shadow: 0 2px 6px rgba(43, 95, 168, 0.25);
+}
+.VPHero .actions .VPButton.brand:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(43, 95, 168, 0.32);
+}
+
+.VPHero .actions .VPButton.alt {
+  background: transparent;
+  border: 1px solid var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
+}
+.VPHero .actions .VPButton.alt:hover {
+  background: var(--vp-c-brand-soft);
+  border-color: var(--vp-c-brand-2);
+}
+
+@media (max-width: 640px) {
+  .VPHero .actions {
+    flex-direction: column;
+    align-items: center;
+  }
+  .VPHero .actions .VPButton {
+    width: 200px;
+    justify-content: center;
+  }
+}
+
+/* ===== 首页功能卡片：精致化 ===== */
+.VPFeature {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  background: var(--vp-c-bg);
+  padding: 1.5rem 1.4rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.VPFeature:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 28px rgba(43, 95, 168, 0.10);
+  border-color: var(--vp-c-brand-1);
+}
+
+.VPFeature .icon {
+  width: 46px;
+  height: 46px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--vp-c-brand-soft);
+  font-size: 24px;
+  margin-bottom: 0.8rem;
+}
+
+.VPFeature .title {
+  font-size: 1.12rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.VPFeature .details {
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: var(--vp-c-text-2);
+}
+
+/* ===== 正文排版微调 ===== */
 .vp-doc h1 {
   letter-spacing: 0.01em;
   border-bottom: 1px solid var(--vp-c-divider);
@@ -51,7 +161,9 @@
   display: table;
 }
 
-.VPHero .name,
-.VPHero .text {
-  max-width: 100%;
+/* 首页非 hero 的正文区块，限宽居中 */
+.home .vp-doc {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
 }
