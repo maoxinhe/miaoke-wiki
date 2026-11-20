@@ -14,8 +14,8 @@ const licenseUrl = 'https://creativecommons.org/licenses/by/4.0/deed.zh-hans'
     <div class="cc-watermark" aria-hidden="true">
       <svg viewBox="0 0 100 100" width="100%" height="100%">
         <circle cx="50" cy="50" r="42" fill="none" stroke="currentColor" stroke-width="6"/>
-        <path d="M 34 60 A 14 14 0 0 1 34 40" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
-        <path d="M 50 40 A 14 14 0 0 1 50 60" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+        <path d="M 40 38 A 13 13 0 1 0 40 62" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+        <path d="M 60 38 A 13 13 0 1 1 60 62" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
       </svg>
     </div>
 
@@ -32,7 +32,7 @@ const licenseUrl = 'https://creativecommons.org/licenses/by/4.0/deed.zh-hans'
       <div class="cc-row">
         <dt>许可证：</dt>
         <dd>
-          <a :href="licenseUrl" target="_blank" rel="noopener noreferrer">署名 4.0 国际 (CC-BY-4.0)</a>
+          <a :href="licenseUrl" target="_blank" rel="noopener noreferrer">CC BY 4.0 · 署名 4.0 国际</a>
         </dd>
       </div>
     </dl>
