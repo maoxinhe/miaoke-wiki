@@ -191,9 +191,22 @@
   width: 116px;
   height: 116px;
   color: var(--vp-c-brand-1);
-  opacity: 0.08;
+  opacity: 0.12;
   pointer-events: none;
   z-index: 0;
+}
+
+.cc-badges {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-right: 0.45rem;
+  vertical-align: middle;
+}
+
+.cc-badge {
+  width: 20px;
+  height: 20px;
 }
 
 .cc-heading {

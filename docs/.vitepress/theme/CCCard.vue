@@ -32,7 +32,20 @@ const licenseUrl = 'https://creativecommons.org/licenses/by/4.0/deed.zh-hans'
       <div class="cc-row">
         <dt>许可证：</dt>
         <dd>
-          <a :href="licenseUrl" target="_blank" rel="noopener noreferrer">CC BY 4.0 · 署名 4.0 国际</a>
+          <a :href="licenseUrl" target="_blank" rel="noopener noreferrer">
+            <span class="cc-badges" aria-hidden="true">
+              <svg viewBox="0 0 32 32" class="cc-badge">
+                <circle cx="16" cy="16" r="13" fill="none" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M 13 11.5 A 5 5 0 1 0 13 20.5" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M 19 11.5 A 5 5 0 1 1 19 20.5" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+              <svg viewBox="0 0 32 32" class="cc-badge">
+                <circle cx="16" cy="16" r="13" fill="none" stroke="currentColor" stroke-width="2.5"/>
+                <text x="16" y="20" text-anchor="middle" font-size="9" font-weight="700" fill="currentColor" font-family="system-ui, sans-serif">BY</text>
+              </svg>
+            </span>
+            署名 4.0 国际 (CC-BY-4.0)
+          </a>
         </dd>
       </div>
     </dl>
