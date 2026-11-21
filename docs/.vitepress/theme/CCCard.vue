@@ -10,44 +10,36 @@ const licenseUrl = 'https://creativecommons.org/licenses/by/4.0/deed.zh-hans'
 </script>
 
 <template>
-  <aside class="cc-card">
-    <div class="cc-watermark" aria-hidden="true">
-      <svg viewBox="0 0 100 100" width="100%" height="100%">
-        <circle cx="50" cy="50" r="42" fill="none" stroke="currentColor" stroke-width="6"/>
-        <path d="M 40 38 A 13 13 0 1 0 40 62" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
-        <path d="M 60 38 A 13 13 0 1 1 60 62" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
-      </svg>
+  <section class="vp-doc-copyright">
+    <h2 class="cc-title">版权所有</h2>
+    <div class="vp-copyright">
+      <span class="copyright-mask" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="100%" height="100%">
+          <path fill="currentColor" d="M9 8c1.104 0 2.105.448 2.829 1.173l-1.414 1.413a2 2 0 1 0 0 2.828l1.413 1.414A4.001 4.001 0 0 1 5 12c0-2.208 1.792-4 4-4m9.829 1.173A4.001 4.001 0 0 0 12 12a4.001 4.001 0 0 0 6.828 2.828l-1.414-1.414a2 2 0 1 1 0-2.828zM2 12C2 6.477 6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12m10-8a8 8 0 1 0 0 16a8 8 0 0 0 0-16"/>
+        </svg>
+      </span>
+      <p>
+        <span class="cc-label">版权归属：</span>
+        <span>喵科大团队</span>
+      </p>
+      <p>
+        <span class="cc-label">本文链接：</span>
+        <a class="cc-link" :href="pageUrl" target="_blank" rel="noopener noreferrer">{{ pageUrl }}</a>
+      </p>
+      <p>
+        <span class="cc-label">许可证：</span>
+        <a class="cc-link" :href="licenseUrl" target="_blank" rel="noopener noreferrer">署名 4.0 国际 (CC-BY-4.0)</a>
+        <span class="vpi-license-cc" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="100%" height="100%">
+            <path fill="currentColor" d="M9 8c1.104 0 2.105.448 2.829 1.173l-1.414 1.413a2 2 0 1 0 0 2.828l1.413 1.414A4.001 4.001 0 0 1 5 12c0-2.208 1.792-4 4-4m9.829 1.173A4.001 4.001 0 0 0 12 12a4.001 4.001 0 0 0 6.828 2.828l-1.414-1.414a2 2 0 1 1 0-2.828zM2 12C2 6.477 6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12m10-8a8 8 0 1 0 0 16a8 8 0 0 0 0-16"/>
+          </svg>
+        </span>
+        <span class="vpi-license-by" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="100%" height="100%">
+            <path fill="currentColor" d="M14 7a2 2 0 1 1-4 0a2 2 0 0 1 4 0m1 4a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v4h1.5v4h3v-4H15zm-3-9C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2M4 12a8 8 0 1 1 16 0a8 8 0 0 1-16 0"/>
+          </svg>
+        </span>
+      </p>
     </div>
-
-    <h4 class="cc-heading">版权所有</h4>
-    <dl class="cc-fields">
-      <div class="cc-row">
-        <dt>版权归属：</dt>
-        <dd>喵科大团队</dd>
-      </div>
-      <div class="cc-row">
-        <dt>本文链接：</dt>
-        <dd><a :href="pageUrl" target="_blank" rel="noopener noreferrer">{{ pageUrl }}</a></dd>
-      </div>
-      <div class="cc-row">
-        <dt>许可证：</dt>
-        <dd>
-          <a :href="licenseUrl" target="_blank" rel="noopener noreferrer">
-            <span class="cc-badges" aria-hidden="true">
-              <svg viewBox="0 0 32 32" class="cc-badge">
-                <circle cx="16" cy="16" r="13" fill="none" stroke="currentColor" stroke-width="2.5"/>
-                <path d="M 13 11.5 A 5 5 0 1 0 13 20.5" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-                <path d="M 19 11.5 A 5 5 0 1 1 19 20.5" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-              </svg>
-              <svg viewBox="0 0 32 32" class="cc-badge">
-                <circle cx="16" cy="16" r="13" fill="none" stroke="currentColor" stroke-width="2.5"/>
-                <text x="16" y="20" text-anchor="middle" font-size="9" font-weight="700" fill="currentColor" font-family="system-ui, sans-serif">BY</text>
-              </svg>
-            </span>
-            署名 4.0 国际 (CC-BY-4.0)
-          </a>
-        </dd>
-      </div>
-    </dl>
-  </aside>
+  </section>
 </template>

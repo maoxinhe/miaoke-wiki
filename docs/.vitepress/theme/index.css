@@ -172,106 +172,168 @@
   padding: 0 1.25rem;
 }
 
-/* ===== CC 版权所有卡片 ===== */
-.cc-card {
-  position: relative;
-  overflow: hidden;
-  margin: 2rem 0 0.5rem;
-  padding: 1.1rem 1.3rem 1.25rem;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 10px;
-  background: linear-gradient(180deg, var(--vp-c-bg-soft), var(--vp-c-bg));
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+/* ===== 更新日志卡片（对齐 camzy.uno 样式） ===== */
+.vp-doc-changelog {
+  margin: 1.5rem 0 0.5rem;
 }
 
-.cc-watermark {
-  position: absolute;
-  right: -16px;
-  bottom: -20px;
-  width: 116px;
-  height: 116px;
+.cc-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  margin: 0 0 0.8rem;
+}
+
+.vp-changelog-wrapper {
+  background: var(--vp-c-bg-soft);
+  border-radius: 8px;
+  margin-block: 1rem;
+  padding-inline: 1rem;
+  line-height: 1.7;
+  font-size: 0.9rem;
+}
+
+.vp-changelog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding-block: 1rem;
+  font-weight: 700;
+}
+
+.vp-latest-updated,
+.vp-changelog-all {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-width: 0;
+}
+
+.vp-changelog-all {
+  color: var(--vp-c-text-2);
+  font-weight: 500;
+}
+
+.cc-icon {
+  width: 1.2em;
+  height: 1.2em;
+  color: var(--vp-c-text-2);
+  flex-shrink: 0;
+}
+
+.vp-changelog-list {
+  margin-block: 0.5rem;
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+.vp-changelog-item-commit {
+  margin-block-start: 8px;
+  padding-inline-start: 20px;
+  position: relative;
+}
+
+.vp-changelog-hash code {
+  margin-inline-end: 4px;
+  background: var(--vp-c-bg);
   color: var(--vp-c-brand-1);
-  opacity: 0.12;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 4px;
+  padding: 0 6px;
+  font-size: 0.8rem;
+}
+
+.vp-changelog-divider { margin-inline-end: 8px; }
+.vp-changelog-message { margin-inline-end: 8px; }
+.vp-changelog-date { color: var(--vp-c-text-2); font-size: 0.75rem; }
+
+/* ===== 版权所有卡片（对齐 camzy.uno 样式） ===== */
+.vp-doc-copyright {
+  margin: 1.5rem 0 0.5rem;
+}
+
+.vp-copyright {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, var(--vp-c-bg-soft) -20%, var(--vp-c-bg) 70%);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  margin: 16px 0;
+  padding: 16px 20px;
+}
+
+.copyright-mask {
+  position: absolute;
+  top: -40px;
+  bottom: 30px;
+  right: -25px;
+  width: 120px;
+  aspect-ratio: 1;
+  color: var(--vp-c-brand-1);
+  opacity: 0.1;
   pointer-events: none;
   z-index: 0;
 }
 
-.cc-badges {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  margin-right: 0.45rem;
-  vertical-align: middle;
-}
-
-.cc-badge {
-  width: 20px;
-  height: 20px;
-}
-
-.cc-heading {
+.vp-copyright p {
   position: relative;
-  z-index: 1;
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--vp-c-text-1);
-  margin: 0 0 0.7rem;
+  z-index: 2;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   align-items: center;
-  gap: 0.45rem;
-}
-.cc-heading::before {
-  content: '';
-  width: 4px;
-  height: 1em;
-  border-radius: 2px;
-  background: var(--vp-c-brand-1);
+  gap: 4px;
+  margin: 8px 0;
+  font-size: 14px;
+  line-height: 20px;
 }
 
-.cc-fields {
-  position: relative;
-  z-index: 1;
-  margin: 0;
-}
-
-.cc-row {
-  display: flex;
-  gap: 0.6rem;
-  align-items: baseline;
-  line-height: 1.9;
-  font-size: 0.9rem;
-}
-
-.cc-row dt {
-  flex-shrink: 0;
+.cc-label {
   color: var(--vp-c-text-2);
+  font-weight: 700;
+  align-self: baseline;
 }
 
-.cc-row dd {
-  margin: 0;
-  min-width: 0;
-  color: var(--vp-c-text-1);
-  word-break: break-all;
-}
-
-.cc-row a {
+.cc-link {
   color: var(--vp-c-brand-1);
   text-decoration: none;
   border-bottom: 1px dashed var(--vp-c-brand-1);
+  word-break: break-all;
 }
-.cc-row a:hover {
+.cc-link:hover {
   color: var(--vp-c-brand-2);
 }
 
+.vpi-license-cc,
+.vpi-license-by {
+  width: 1.3em;
+  height: 1.3em;
+  color: var(--vp-c-text-2);
+  margin-left: 4px;
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  background: transparent !important;
+}
+
+.copyright-mask svg,
+.vpi-license-cc svg,
+.vpi-license-by svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: transparent;
+}
+
 @media (max-width: 520px) {
-  .cc-watermark {
+  .copyright-mask {
     width: 90px;
-    height: 90px;
-    opacity: 0.06;
+    opacity: 0.08;
   }
-  .cc-row {
+  .vp-changelog-header {
     flex-direction: column;
-    gap: 0.05rem;
-    line-height: 1.6;
+    align-items: flex-start;
+    gap: 0.4rem;
   }
 }
